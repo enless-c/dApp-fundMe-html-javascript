@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fund Me App</title>
+    <style>
+        #connectButton:active {
+        background-color: #ffbf00;
+
+        }
+        #connectButton:focus {
+        outline-color: transparent;
+        outline-style:solid;
+
+        transition: 0.7s;
+        background-color: aquamarine;
+        }
+
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>FundMe App</h1>
+    <script src="./index.js", type="module">
+    </script>
+    <button id="connectButton" > Connect </button>
+    <button id="balanceButton">Get Balance</button>
+    <hr>
+    <br>
+    <button id="withdrawButton" > Withdraw  </button>
+    <button id="fundButton" > Fund </button>
+    <!--form-->
+    <label for="fund">ETH Amount</label>
+    <input id="ethAmount" placeholder="0.1"/>
+  </center>
+  </body>
+</html>
